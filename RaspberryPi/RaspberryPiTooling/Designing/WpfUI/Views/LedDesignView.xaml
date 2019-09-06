@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="ARGUSnet.RaspberryPiTooling.WpfUI.Views.LedDesignView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:tk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:xf="clr-namespace:ARGUSnet.RaspberryPiTooling.WpfUI.Infrastructure.XamlFunctionalities"
+             xmlns:local="clr-namespace:ARGUSnet.RaspberryPiTooling.WpfUI.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="270" />
+            <ColumnDefinition Width="170" />
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Led-Panel">
+            <ContentControl
+                Content="{Binding VisualLedPanel.VisualLeds, Mode=OneWay}"
+                ContentTemplate="{StaticResource DtVisualLedPanel}" />
+        </GroupBox>
+
+        <GroupBox
+            Grid.Column="1"
+            Header="Color-Selection">
+            <StackPanel Style="{StaticResource StyleSpColorSelection}">
+                <tk:ColorPicker
+                    DisplayColorAndName="True"
+                    SelectedColor="{Binding SelectedColor}" />
+
+                <ContentControl
+                    Style="{StaticResource StyleCcColorAction}"
+                    ContentTemplate="{StaticResource DtCommandViewModelButton}"
+                    Content="{Binding DyeAllLeds}" />
+
+                <ContentControl
+                    Style="{StaticResource StyleCcColorAction}"
+                    ContentTemplate="{StaticResource DtCommandViewModelButton}"
+                    Content="{Binding UndoLedAction}" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Grid.Row="1"
+            Header="C#-Code">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Button
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    DataContext="{Binding ConvertLedsToCode}"
+                    Command="{Binding Command, Mode=OneTime}"
+                    Content="{Binding DisplayName, Mode=OneTime}" />
+
+                <TextBox
+                    Grid.Row="1"
+                    Style="{StaticResource StyleTxtSharpCode }" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

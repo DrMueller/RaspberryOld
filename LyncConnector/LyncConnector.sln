@@ -1,0 +1,159 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.LyncConnector.Integration", "Integration\ARGUSnet.LyncConnector.Integration.csproj", "{4106FBD5-93F6-40E3-9D62-1775637AD49F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.LyncConnector.Model", "Model\ARGUSnet.LyncConnector.Model.csproj", "{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.LyncConnector.Services", "Services\ARGUSnet.LyncConnector.Services.csproj", "{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.LyncConnector.WindowsService", "WindowsService\ARGUSnet.LyncConnector.WindowsService.csproj", "{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.LyncConnector.TestGui", "TestGui\ARGUSnet.LyncConnector.TestGui.csproj", "{20A5490E-3868-4A5C-8B99-9AEED5EDE957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.RaspberryPiFramework.Model", "..\RaspberryPi\RaspberryPiFramework\Model\ARGUSnet.RaspberryPiFramework.Model.csproj", "{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NuGet", ".NuGet", "{509A69C8-4207-4E57-86B0-E8E08DAC87F8}"
+	ProjectSection(SolutionItems) = preProject
+		.NuGet\NuGet.Config = .NuGet\NuGet.Config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|x64.Build.0 = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|ARM.Build.0 = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|x64.ActiveCfg = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|x64.Build.0 = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4106FBD5-93F6-40E3-9D62-1775637AD49F}.Release|x86.Build.0 = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|ARM.Build.0 = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|x64.Build.0 = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Debug|x86.Build.0 = Debug|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|ARM.ActiveCfg = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|ARM.Build.0 = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|x64.ActiveCfg = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|x64.Build.0 = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|x86.ActiveCfg = Release|Any CPU
+		{99481CF9-D0C1-4A5C-9F13-41CD5485CA54}.Release|x86.Build.0 = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|ARM.Build.0 = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|x64.Build.0 = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BEA6F54-4115-4BD7-A165-DCDD41B8F49F}.Release|x86.Build.0 = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|x64.Build.0 = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|ARM.Build.0 = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|x64.ActiveCfg = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|x64.Build.0 = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{7C2E5682-B67D-4AA5-9FF5-474FCB0BE6E2}.Release|x86.Build.0 = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|ARM.Build.0 = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|x64.Build.0 = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Debug|x86.Build.0 = Debug|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|ARM.ActiveCfg = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|ARM.Build.0 = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|x64.ActiveCfg = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|x64.Build.0 = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|x86.ActiveCfg = Release|Any CPU
+		{20A5490E-3868-4A5C-8B99-9AEED5EDE957}.Release|x86.Build.0 = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Debug|x86.Build.0 = Debug|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|ARM.Build.0 = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|x64.Build.0 = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|x86.ActiveCfg = Release|Any CPU
+		{4CA64D4E-4ACB-4CB7-AA8E-54398B25B8AB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Integration\\ARGUSnet.LyncConnector.Integration.csproj
+		SccProjectName1 = Integration
+		SccLocalPath1 = Integration
+		SccProjectUniqueName2 = Model\\ARGUSnet.LyncConnector.Model.csproj
+		SccProjectName2 = Model
+		SccLocalPath2 = Model
+		SccProjectUniqueName3 = Services\\ARGUSnet.LyncConnector.Services.csproj
+		SccProjectName3 = Services
+		SccLocalPath3 = Services
+		SccProjectUniqueName4 = WindowsService\\ARGUSnet.LyncConnector.WindowsService.csproj
+		SccProjectName4 = WindowsService
+		SccLocalPath4 = WindowsService
+		SccProjectUniqueName5 = TestGui\\ARGUSnet.LyncConnector.TestGui.csproj
+		SccProjectName5 = TestGui
+		SccLocalPath5 = TestGui
+		SccProjectUniqueName6 = ..\\RaspberryPi\\RaspberryPiFramework\\Model\\ARGUSnet.RaspberryPiFramework.Model.csproj
+		SccProjectName6 = ../RaspberryPi/RaspberryPiFramework/Model
+		SccLocalPath6 = ..\\RaspberryPi\\RaspberryPiFramework\\Model
+	EndGlobalSection
+EndGlobal

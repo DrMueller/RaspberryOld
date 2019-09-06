@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.RasperryPi2.Extensions", "Extensions\ARGUSnet.RasperryPi2.Extensions.csproj", "{A45FC56B-D770-4868-AB13-FC909938B9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.RasperryPi2.LedDesigner", "LedDesigner\ARGUSnet.RasperryPi2.LedDesigner.csproj", "{4117D6CE-487B-4D42-BDBF-C407A5B4D002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.RasperryPi2.NativeAdapter", "NativeAdapter\ARGUSnet.RasperryPi2.NativeAdapter.csproj", "{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARGUSnet.RasperryPi2.TestClient", "TestClient\ARGUSnet.RasperryPi2.TestClient.csproj", "{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|ARM.Build.0 = Debug|ARM
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|x64.ActiveCfg = Debug|x64
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|x64.Build.0 = Debug|x64
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|x86.ActiveCfg = Debug|x86
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Debug|x86.Build.0 = Debug|x86
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|ARM.ActiveCfg = Release|ARM
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|ARM.Build.0 = Release|ARM
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|x64.ActiveCfg = Release|x64
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|x64.Build.0 = Release|x64
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|x86.ActiveCfg = Release|x86
+		{A45FC56B-D770-4868-AB13-FC909938B9DB}.Release|x86.Build.0 = Release|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|ARM.Build.0 = Debug|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|ARM.Deploy.0 = Debug|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x64.ActiveCfg = Debug|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x64.Build.0 = Debug|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x64.Deploy.0 = Debug|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x86.ActiveCfg = Debug|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x86.Build.0 = Debug|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Debug|x86.Deploy.0 = Debug|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|Any CPU.ActiveCfg = Release|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|ARM.ActiveCfg = Release|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|ARM.Build.0 = Release|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|ARM.Deploy.0 = Release|ARM
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x64.ActiveCfg = Release|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x64.Build.0 = Release|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x64.Deploy.0 = Release|x64
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x86.ActiveCfg = Release|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x86.Build.0 = Release|x86
+		{4117D6CE-487B-4D42-BDBF-C407A5B4D002}.Release|x86.Deploy.0 = Release|x86
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|ARM.Build.0 = Debug|ARM
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|x64.ActiveCfg = Debug|x64
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|x64.Build.0 = Debug|x64
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|x86.ActiveCfg = Debug|x86
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Debug|x86.Build.0 = Debug|x86
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|ARM.ActiveCfg = Release|ARM
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|ARM.Build.0 = Release|ARM
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|x64.ActiveCfg = Release|x64
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|x64.Build.0 = Release|x64
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|x86.ActiveCfg = Release|x86
+		{23E94F0E-4D99-457D-A93E-BB1A4803BF3C}.Release|x86.Build.0 = Release|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|ARM.Build.0 = Debug|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x64.ActiveCfg = Debug|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x64.Build.0 = Debug|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x64.Deploy.0 = Debug|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x86.ActiveCfg = Debug|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x86.Build.0 = Debug|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Debug|x86.Deploy.0 = Debug|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|Any CPU.ActiveCfg = Release|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|ARM.ActiveCfg = Release|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|ARM.Build.0 = Release|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|ARM.Deploy.0 = Release|ARM
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x64.ActiveCfg = Release|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x64.Build.0 = Release|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x64.Deploy.0 = Release|x64
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x86.ActiveCfg = Release|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x86.Build.0 = Release|x86
+		{3E2C2D8F-6A4A-420D-9C74-AFB421BF20DF}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccProjectUniqueName0 = Extensions\\ARGUSnet.RasperryPi2.Extensions.csproj
+		SccProjectName0 = Extensions
+		SccAuxPath0 = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccLocalPath0 = Extensions
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = LedDesigner\\ARGUSnet.RasperryPi2.LedDesigner.csproj
+		SccProjectName1 = LedDesigner
+		SccAuxPath1 = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccLocalPath1 = LedDesigner
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = NativeAdapter\\ARGUSnet.RasperryPi2.NativeAdapter.csproj
+		SccProjectName2 = NativeAdapter
+		SccAuxPath2 = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccLocalPath2 = NativeAdapter
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = TestClient\\ARGUSnet.RasperryPi2.TestClient.csproj
+		SccProjectName3 = TestClient
+		SccAuxPath3 = https://tfs.argusnet.ch/tfs/defaultcollection
+		SccLocalPath3 = TestClient
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

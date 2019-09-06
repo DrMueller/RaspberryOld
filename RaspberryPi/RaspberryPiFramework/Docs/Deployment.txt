@@ -1,0 +1,24 @@
+Links:
+https://www.hackster.io/AnuragVasanwala/windows-10-iot-core-setting-startup-app-887ed0
+https://ms-iot.github.io/content/en-US/win10/tools/CommandLineUtils.htm 
+
+Logins:
+Default --> localhost\Administrator / p@ssw0rd
+
+Short Version:
+Powershell als Admin aufmachen
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value 192.168.254.103
+--> Click Yes
+
+Enter-PSSession -ComputerName 192.168.254.103 -Credential localhost\Administrator
+--> Default Passwort: p@ssw0rd
+--> Dauert ca. 30-60 Sekunden
+
+IoTStartup list
+--> App heraussuchen
+--> Nach dem Deployment muss evtl. mit neuem Powershell verbunden werden
+
+IoTStartup add headed ARGUSnetRaspberryPi2FunService_3n6e55dq7w46y!App
+--> Headedfür GUI, headles für Background-Tasks
+
+shutdown /r /t 0

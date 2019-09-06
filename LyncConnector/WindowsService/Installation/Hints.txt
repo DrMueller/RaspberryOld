@@ -1,0 +1,2 @@
+The Service has to run as the specific logged in AD-User, otherwise the Logic won't be able to access the Lync-API.
+For example: ARGUSnet\matthias.mueller

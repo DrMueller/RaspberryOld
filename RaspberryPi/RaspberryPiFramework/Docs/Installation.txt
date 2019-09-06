@@ -1,0 +1,6 @@
+Requirements:
+Visual Studio 2015 Updates: http://ms-iot.github.io/content/en-US/GetStarted.htm
+IoT Core Templates: https://visualstudiogallery.msdn.microsoft.com/55b357e1-a533-43ad-82a5-a88ac4b01dec
+
+Installation:
+Installation on SD Card: https://developer.microsoft.com/en-us/windows/iot/GetStarted
