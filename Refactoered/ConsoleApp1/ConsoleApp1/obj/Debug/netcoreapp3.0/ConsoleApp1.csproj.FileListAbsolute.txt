@@ -1,0 +1,4 @@
+C:\MyGit\Personal\RaspberryOld\Refactoered\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.csprojAssemblyReference.cache
+C:\MyGit\Personal\RaspberryOld\Refactoered\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\MyGit\Personal\RaspberryOld\Refactoered\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\MyGit\Personal\RaspberryOld\Refactoered\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.AssemblyInfo.cs

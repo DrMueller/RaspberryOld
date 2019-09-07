@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="ARGUSnet.RasperryPi2.LedDesigner.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ARGUSnet.RasperryPi2.LedDesigner"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="235" Width="415"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15" Width="20">
+            <CheckBox Name="cb00" Checked="Cb00_OnChecked" Unchecked="Cb00_OnUnchecked" Content="0, 0"/>
+            <CheckBox Name="cb01" Checked="Cb01_OnChecked" Unchecked="Cb01_OnUnchecked" Content="0, 1"/>
+            <CheckBox Name="cb02" Checked="Cb02_OnChecked" Unchecked="Cb02_OnUnchecked" Content="0, 2"/>
+            <CheckBox Name="cb03" Checked="Cb03_OnChecked" Unchecked="Cb03_OnUnchecked" Content="0, 3"/>
+            <CheckBox Name="cb04" Checked="Cb04_OnChecked" Unchecked="Cb04_OnUnchecked" Content="0, 4"/>
+            <CheckBox Name="cb05" Checked="Cb05_OnChecked" Unchecked="Cb05_OnUnchecked" Content="0, 5"/>
+            <CheckBox Name="cb06" Checked="Cb06_OnChecked" Unchecked="Cb06_OnUnchecked" Content="0, 6"/>
+            <CheckBox Name="cb07" Checked="Cb07_OnChecked" Unchecked="Cb07_OnUnchecked" Content="0, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,15" Width="20" >
+            <CheckBox Name="cb10" Checked="Cb10_OnChecked" Unchecked="Cb10_OnUnchecked" Content="1, 0"/>
+            <CheckBox Name="cb11" Checked="Cb11_OnChecked" Unchecked="Cb11_OnUnchecked" Content="1, 1"/>
+            <CheckBox Name="cb12" Checked="Cb12_OnChecked" Unchecked="Cb12_OnUnchecked" Content="1, 2"/>
+            <CheckBox Name="cb13" Checked="Cb13_OnChecked" Unchecked="Cb13_OnUnchecked" Content="1, 3"/>
+            <CheckBox Name="cb14" Checked="Cb14_OnChecked" Unchecked="Cb14_OnUnchecked" Content="1, 4"/>
+            <CheckBox Name="cb15" Checked="Cb15_OnChecked" Unchecked="Cb15_OnUnchecked" Content="1, 5"/>
+            <CheckBox Name="cb16" Checked="Cb16_OnChecked" Unchecked="Cb16_OnUnchecked" Content="1, 6"/>
+            <CheckBox Name="cb17" Checked="Cb17_OnChecked" Unchecked="Cb17_OnUnchecked" Content="1, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,15" Width="20" >
+            <CheckBox Name="cb20" Checked="Cb20_OnChecked" Unchecked="Cb20_OnUnchecked" Content="2, 0"/>
+            <CheckBox Name="cb21" Checked="Cb21_OnChecked" Unchecked="Cb21_OnUnchecked" Content="2, 1"/>
+            <CheckBox Name="cb22" Checked="Cb22_OnChecked" Unchecked="Cb22_OnUnchecked" Content="2, 2"/>
+            <CheckBox Name="cb23" Checked="Cb23_OnChecked" Unchecked="Cb23_OnUnchecked" Content="2, 3"/>
+            <CheckBox Name="cb24" Checked="Cb24_OnChecked" Unchecked="Cb24_OnUnchecked" Content="2, 4"/>
+            <CheckBox Name="cb25" Checked="Cb25_OnChecked" Unchecked="Cb25_OnUnchecked" Content="2, 5"/>
+            <CheckBox Name="cb26" Checked="Cb26_OnChecked" Unchecked="Cb26_OnUnchecked" Content="2, 6"/>
+            <CheckBox Name="cb27" Checked="Cb27_OnChecked" Unchecked="Cb27_OnUnchecked" Content="2, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,15" Width="20" >
+            <CheckBox Name="cb30" Checked="Cb30_OnChecked" Unchecked="Cb30_OnUnchecked" Content="3, 0"/>
+            <CheckBox Name="cb31" Checked="Cb31_OnChecked" Unchecked="Cb31_OnUnchecked" Content="3, 1"/>
+            <CheckBox Name="cb32" Checked="Cb32_OnChecked" Unchecked="Cb32_OnUnchecked" Content="3, 2"/>
+            <CheckBox Name="cb33" Checked="Cb33_OnChecked" Unchecked="Cb33_OnUnchecked" Content="3, 3"/>
+            <CheckBox Name="cb34" Checked="Cb34_OnChecked" Unchecked="Cb34_OnUnchecked" Content="3, 4"/>
+            <CheckBox Name="cb35" Checked="Cb35_OnChecked" Unchecked="Cb35_OnUnchecked" Content="3, 5"/>
+            <CheckBox Name="cb36" Checked="Cb36_OnChecked" Unchecked="Cb36_OnUnchecked" Content="3, 6"/>
+            <CheckBox Name="cb37" Checked="Cb37_OnChecked" Unchecked="Cb37_OnUnchecked" Content="3, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,15" Width="20" >
+            <CheckBox Name="cb40" Checked="Cb40_OnChecked" Unchecked="Cb40_OnUnchecked" Content="4, 0"/>
+            <CheckBox Name="cb41" Checked="Cb41_OnChecked" Unchecked="Cb41_OnUnchecked" Content="4, 1"/>
+            <CheckBox Name="cb42" Checked="Cb42_OnChecked" Unchecked="Cb42_OnUnchecked" Content="4, 2"/>
+            <CheckBox Name="cb43" Checked="Cb43_OnChecked" Unchecked="Cb43_OnUnchecked" Content="4, 3"/>
+            <CheckBox Name="cb44" Checked="Cb44_OnChecked" Unchecked="Cb44_OnUnchecked" Content="4, 4"/>
+            <CheckBox Name="cb45" Checked="Cb45_OnChecked" Unchecked="Cb45_OnUnchecked" Content="4, 5"/>
+            <CheckBox Name="cb46" Checked="Cb46_OnChecked" Unchecked="Cb46_OnUnchecked" Content="4, 6"/>
+            <CheckBox Name="cb47" Checked="Cb47_OnChecked" Unchecked="Cb47_OnUnchecked" Content="4, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,15" Width="20" >
+            <CheckBox Name="cb50" Checked="Cb50_OnChecked" Unchecked="Cb50_OnUnchecked" Content="5, 0"/>
+            <CheckBox Name="cb51" Checked="Cb51_OnChecked" Unchecked="Cb51_OnUnchecked" Content="5, 1"/>
+            <CheckBox Name="cb52" Checked="Cb52_OnChecked" Unchecked="Cb52_OnUnchecked" Content="5, 2"/>
+            <CheckBox Name="cb53" Checked="Cb53_OnChecked" Unchecked="Cb53_OnUnchecked" Content="5, 3"/>
+            <CheckBox Name="cb54" Checked="Cb54_OnChecked" Unchecked="Cb54_OnUnchecked" Content="5, 4"/>
+            <CheckBox Name="cb55" Checked="Cb55_OnChecked" Unchecked="Cb55_OnUnchecked" Content="5, 5"/>
+            <CheckBox Name="cb56" Checked="Cb56_OnChecked" Unchecked="Cb56_OnUnchecked" Content="5, 6"/>
+            <CheckBox Name="cb57" Checked="Cb57_OnChecked" Unchecked="Cb57_OnUnchecked" Content="5, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,15" Width="20" >
+            <CheckBox Name="cb60" Checked="Cb60_OnChecked" Unchecked="Cb60_OnUnchecked" Content="6, 0"/>
+            <CheckBox Name="cb61" Checked="Cb61_OnChecked" Unchecked="Cb61_OnUnchecked" Content="6, 1"/>
+            <CheckBox Name="cb62" Checked="Cb62_OnChecked" Unchecked="Cb62_OnUnchecked" Content="6, 2"/>
+            <CheckBox Name="cb63" Checked="Cb63_OnChecked" Unchecked="Cb63_OnUnchecked" Content="6, 3"/>
+            <CheckBox Name="cb64" Checked="Cb64_OnChecked" Unchecked="Cb64_OnUnchecked" Content="6, 4"/>
+            <CheckBox Name="cb65" Checked="Cb65_OnChecked" Unchecked="Cb65_OnUnchecked" Content="6, 5"/>
+            <CheckBox Name="cb66" Checked="Cb66_OnChecked" Unchecked="Cb66_OnUnchecked" Content="6, 6"/>
+            <CheckBox Name="cb67" Checked="Cb67_OnChecked" Unchecked="Cb67_OnUnchecked" Content="6, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,15" Width="20" >
+            <CheckBox Name="cb70" Checked="Cb70_OnChecked" Unchecked="Cb70_OnUnchecked" Content="7, 0"/>
+            <CheckBox Name="cb71" Checked="Cb71_OnChecked" Unchecked="Cb71_OnUnchecked" Content="7, 1"/>
+            <CheckBox Name="cb72" Checked="Cb72_OnChecked" Unchecked="Cb72_OnUnchecked" Content="7, 2"/>
+            <CheckBox Name="cb73" Checked="Cb73_OnChecked" Unchecked="Cb73_OnUnchecked" Content="7, 3"/>
+            <CheckBox Name="cb74" Checked="Cb74_OnChecked" Unchecked="Cb74_OnUnchecked" Content="7, 4"/>
+            <CheckBox Name="cb75" Checked="Cb75_OnChecked" Unchecked="Cb75_OnUnchecked" Content="7, 5"/>
+            <CheckBox Name="cb76" Checked="Cb76_OnChecked" Unchecked="Cb76_OnUnchecked" Content="7, 6"/>
+            <CheckBox Name="cb77" Checked="Cb77_OnChecked" Unchecked="Cb77_OnUnchecked" Content="7, 7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Height="135" Margin="15,15" Width="240">
+            <TextBox Name="txtOutput" Height="135"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="15,15">
+            <Button Name="btnUpdate" Click="btnUpdate_OnClick">Update</Button>
+        </StackPanel>
+    </Grid>
+</Page>
